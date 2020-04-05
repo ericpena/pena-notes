@@ -1,22 +1,22 @@
-# README -- Notes to Self
+# README
 
-Foobar is a Python library for dealing with word pluralization.
+## Todo
+* Fix About page
+* Change color
+* Add own categories and content
+* Change make.ipynb to make.py
+* Add .gifs and LaTeX work
 
-## Change Log
-*Files*
-archtypes: Copied from ChrisAlbon template
-docs: Copied Docs file from notes to pena-notes
-static: Copied Static file from notes to pena-notes
-content: Copied content over for now
-index.html: Made slight content changes
-baseof.html: Made slight content changes
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+Theme code update: index.html
+```html
+<ul>
+    {{ $section := site.GetPage "machine_learning/basics" }}
+    {{ with $section }}
+        {{ range .Pages }}
+        <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+        {{ end }}
+    {{ end }}
+</ul>
 ```
 
 ## License
