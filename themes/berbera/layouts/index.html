@@ -28,8 +28,6 @@
         </div>
 
 
-
-
         <div class="row" id="machine_learning">
             <div class="col-sm-12">
                 <h3 class="category_header">Machine Learning</h3>
@@ -79,10 +77,11 @@
                     <h4 class="card-header">Preprocessing Structured Data</h4>
                     <div class="card-body">
                         <ul>
-                            {{ range (where .Pages "File.Dir" "in" "/machine_learning/preprocessing_structured_data/").ByTitle }}
-                            <li>
-                                <a href="{{.Permalink}}">{{.Title}}</a>
-                            </li>
+                            {{ $section := site.GetPage "machine_learning/preprocessing_structured_data" }}
+                            {{ with $section }}
+                              {{ range .Pages }}
+                                <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                              {{ end }}
                             {{ end }}
                         </ul>
                     </div>
@@ -96,10 +95,11 @@
                     <h4 class="card-header">Preprocessing Images</h4>
                     <div class="card-body">
                         <ul>
-                            {{ range (where .Pages "File.Dir" "in" "/machine_learning/preprocessing_images/").ByTitle }}
-                            <li>
-                                <a href="{{.Permalink}}">{{.Title}}</a>
-                            </li>
+                            {{ $section := site.GetPage "machine_learning/preprocessing_images" }}
+                            {{ with $section }}
+                              {{ range .Pages }}
+                                <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                              {{ end }}
                             {{ end }}
                         </ul>
                     </div>
@@ -113,10 +113,11 @@
                     <h4 class="card-header">Preprocessing Text</h4>
                     <div class="card-body">
                         <ul>
-                            {{ range (where .Pages "File.Dir" "in" "/machine_learning/preprocessing_text/").ByTitle }}
-                            <li>
-                                <a href="{{.Permalink}}">{{.Title}}</a>
-                            </li>
+                            {{ $section := site.GetPage "machine_learning/preprocessing_text" }}
+                            {{ with $section }}
+                              {{ range .Pages }}
+                                <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                              {{ end }}
                             {{ end }}
                         </ul>
                     </div>
