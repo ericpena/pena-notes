@@ -25,7 +25,7 @@ It's important to visualize the problem at hand. We can ask questions such as:
 Let's take a look at what this might look like.
 
 <figure>
-  <img src="img/proj.gif" alt="Projectile" width="400"/>
+  <img src="images/page.jpg" alt="Projectile" width="400"/>
   <figcaption>Figure 1 — Visualizing Trajectory of Ball</figcaption>
 </figure>
 
@@ -61,7 +61,7 @@ $$\int_{0}^{\frac{2 v_o sin(\phi)}{g}} (v_o sin(\phi) t - \frac{1}{2} g t^2)(v_o
 Let's think about how the area under the curve changes with changing $\phi$. This will help us answer our first question (1).
 
 <figure>
-  <img src="img/phi.gif" alt="Changing Phi" width="500"/>
+  <img src="images/page.jpg" alt="Projectile" width="400"/>
   <figcaption>Figure 2 — Visualizing Trajectory of Ball With Changing $\phi$</figcaption>
 </figure>
 
@@ -81,10 +81,8 @@ $$\frac{25}{6}cos(\phi) sin^3(\phi)$$
 
 To answer our second question (2) that asks how does the area under the curve change with changing $\phi$, we can draw the plot below.
 
-<figure>
-  <img src="img/area.png" alt="Area Under Trajectory" width="700"/>
-  <figcaption>Figure 3 — Visualizing Area Under Trajectory of Ball With Various Values of $\phi$</figcaption>
-</figure>
+![png](images/page.jpg)
+
 
 ## The Answer
 To find the answer we take the derivative of the equation that tells us the area with respect to angle, set it equal to zero, then solve for $\phi$.
@@ -102,9 +100,11 @@ $$\phi = \frac{\pi}{3} = 1.0472$$
 Although the answer we are looking for is $\frac{\pi}{3}$, there are other non-intuitive, non-physical answers that technically satisfy our problem as well. For example, $\frac{2\pi}{3}$ is another answer. This would mean that we threw the ball behind us. $(-\frac{2\pi}{3})$ is another answer which would mean we threw the ball behind us and into the ground and gravity was reversed - this wouldn't make much physical sense. If we allowed the plot above to continue, we get a better picture of what is happening.
 
 <figure>
-  <img src="img/area5.png" alt="Area Under Trajectory Until $\phi = \frac{5\pi}{3}$" width="700"/>
+  <img src="images/page.jpg" alt="Projectile" width="400"/>
   <figcaption>Figure 4 — Visualizing Area Under Trajectory of Ball With Various Values of $\phi$ for $0 < \phi < \frac{5\pi}{2}$</figcaption>
 </figure>
+
+![png](images/page.jpg)
 
 ## Final Questions to Answer
 For completion, let's answer some basic questions about our ball given the initial conditions states above now that we know the optimal angle $\phi$.
@@ -122,8 +122,10 @@ $$y = v_0 sin(\phi) \frac{t}{2} - \frac{g}{2} \left(\frac{t}{2}\right)^2 = \frac
 $$A = \frac{25}{6} cos(\phi) sin^3(\phi) = \frac{25 \sqrt3}{32} = 1.35316\ m^2$$
 
 <figure>
-  <img src="img/final.gif" alt="Ball Trajectory At Angle \frac{\pi}{3}" width="700"/>
+  <img src="images/page.jpg" alt="Projectile" width="400"/>
   <figcaption>Figure 5 — Ball Trajectory at Angle $\frac{\pi}{3}$</figcaption>
 </figure>
+
+![png](images/page.jpg)
 
 
