@@ -20,7 +20,71 @@
                 </p>
             </div>
         </div>
+<!-----------------------------------------------------------------------------
+                                PHYSICS
+------------------------------------------------------------------------------>
+        <div class="row" id="physics">
+            <div class="col-sm-12">
+                <h3 class="category_header">Physics</h3>
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Setup</h4>
+                    <div class="card-body">
+                        <ul>
+                            {{ $section := site.GetPage "physics/setup" }}
+                            {{ with $section }}
+                              {{ range .Pages }}
+                                <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                            {{ end }}
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Classical Mechanics</h4>
+                    <div class="card-body">
+                        <ul>
+                            {{ $section := site.GetPage "physics/classical_mechanics" }}
+                            {{ with $section }}
+                              {{ range .Pages }}
+                                <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                            {{ end }}
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">PyTorch</h4>
+                    <div class="card-body">
+                        <ul>
+                            {{ $section := site.GetPage "physics/pytorch/basics" }}
+                            {{ with $section }}
+                              {{ range .Pages }}
+                                <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                            {{ end }}
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-----------------------------------------------------------------------------
+                                MACHINE LEARNING
+------------------------------------------------------------------------------>
         <div class="row" id="machine_learning">
             <div class="col-sm-12">
                 <h3 class="category_header">Machine Learning</h3>
@@ -46,7 +110,7 @@
             </div>
 
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm-12">
                 <div class="card">
                     <h4 class="card-header">Vectors, Matrices, And Arrays</h4>
@@ -62,9 +126,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm-12">
                 <div class="card">
                     <h4 class="card-header">Preprocessing Structured Data</h4>
@@ -80,9 +144,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm-12">
                 <div class="card">
                     <h4 class="card-header">Preprocessing Images</h4>
@@ -98,9 +162,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm-12">
                 <div class="card">
                     <h4 class="card-header">Preprocessing Text</h4>
@@ -116,9 +180,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm-12">
                 <div class="card">
                     <h4 class="card-header">Preprocessing Dates And Times</h4>
@@ -133,9 +197,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm-12">
                 <div class="card">
                     <h4 class="card-header">Feature Engineering</h4>
@@ -150,9 +214,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm-12">
                 <div class="card">
                     <h4 class="card-header">Feature Selection</h4>
@@ -167,9 +231,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm-12">
                 <div class="card">
                     <h4 class="card-header">Model Evaluation</h4>
@@ -184,9 +248,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm-12">
                 <div class="card">
                     <h4 class="card-header">Model Selection</h4>
@@ -201,9 +265,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm-12">
                 <div class="card">
                     <h4 class="card-header">Linear Regression</h4>
@@ -218,9 +282,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm-12">
                 <div class="card">
                     <h4 class="card-header">Logistic Regression</h4>
@@ -235,9 +299,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm-12">
                 <div class="card">
                     <h4 class="card-header">Trees And Forests</h4>
@@ -252,9 +316,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm-12">
                 <div class="card">
                     <h4 class="card-header">Nearest Neighbors</h4>
@@ -269,9 +333,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm-12">
                 <div class="card">
                     <h4 class="card-header">Support Vector Machines</h4>
@@ -286,9 +350,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm-12">
                 <div class="card">
                     <h4 class="card-header">Naive Bayes</h4>
@@ -303,9 +367,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm-12">
                 <div class="card">
                     <h4 class="card-header">Clustering</h4>
@@ -320,64 +384,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="row" id="deep_learning">
-            <div class="col-sm-12">
-                <h3 class="category_header">Deep Learning</h3>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="card">
-                    <h4 class="card-header">Setup</h4>
-                    <div class="card-body">
-                        <ul>
-                            {{ range (where .Pages "File.Dir" "in" "/deep_learning/setup/").ByTitle }}
-                            <li>
-                                <a href="{{.Permalink}}">{{.Title}}</a>
-                            </li>
-                            {{ end }}
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="card">
-                    <h4 class="card-header">Keras</h4>
-                    <div class="card-body">
-                        <ul>
-                            {{ range (where .Pages "File.Dir" "in" "/deep_learning/keras/").ByTitle }}
-                            <li>
-                                <a href="{{.Permalink}}">{{.Title}}</a>
-                            </li>
-                            {{ end }}
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="card">
-                    <h4 class="card-header">PyTorch</h4>
-                    <div class="card-body">
-                        <ul>
-                            {{ range (where .Pages "File.Dir" "in" "/deep_learning/pytorch/basics/").ByTitle }}
-                            <li>
-                                <a href="{{.Permalink}}">{{.Title}}</a>
-                            </li>
-                            {{ end }}
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div> -->
 
         <div class="row" id="python">
             <div class="col-sm-12">
