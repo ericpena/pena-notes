@@ -6,7 +6,7 @@ theme = "berbera"
 pygmentsCodeFences=true
 pygmentsUseClasses=true
 canonifyURLs=true
-# publishDir="docs"
+publishDir="../ericpena.github.io"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 uglyURLs = true
 

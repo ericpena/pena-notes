@@ -159,7 +159,7 @@ a {
 }
 
 a:hover {
-  color: #0056FF;
+  color: #FF6666; /*#0056FF*/
 }
 
 .container {
@@ -184,7 +184,7 @@ Navbar
 ---------------------------------------------------------*/
 
 .navbar {
-  background-color: #e84038;
+  background-color: #333333;/*EP Update*/
   border-bottom: 0px;
 }
 
