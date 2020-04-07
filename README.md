@@ -3,9 +3,9 @@
 # WELCOME TO PEÑA NOTES!
 
 ## Todo (SELF)
-* ---Fix About page---
-* ---Change color---
-* ---Add own categories and content---
+* <s>Fix About page</s>
+* <s>Change color</s>
+* ~Add own categories and content~
 * Automatically add meta data to technical notes
 * Fix make.ipynb bug 
 * Concert make.ipynb to make.py

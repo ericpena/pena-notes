@@ -9,7 +9,7 @@ outputs:
     - html
 ---
 
-![ericpena](eric_pena.jpg)
+![ericpena](eric_pena/eric_pena.jpg)
 
 I am a [Complex Systems Science]("https://en.wikipedia.org/wiki/Complex_system") graduate student and [Clifford D. Clark Fellow]("https://www.binghamton.edu/grad-school/cost-aid-funding/financial-support/clifford-clark-fellowship.html") at [State University of New York at Binghamton]("https://www.binghamton.edu/").
 
