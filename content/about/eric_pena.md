@@ -9,15 +9,14 @@ outputs:
     - html
 ---
 
+![ericpena](eric_pena/eric_pena.jpg)
 
-<img src="eric_pena/eric_pena.jpg"></img>
+I am a [Complex Systems Science]("https://en.wikipedia.org/wiki/Complex_system") graduate student and [Clifford D. Clark Fellow]("https://www.binghamton.edu/grad-school/cost-aid-funding/financial-support/clifford-clark-fellowship.html") at [State University of New York at Binghamton]("https://www.binghamton.edu/").
 
-5 This is Eric Peña speaking.
+-   Email: eric.pena@binghamton.edu
+-   Twitter: [@ericpenaphysics](https://twitter.com/ericpenaphysics)
 
--   Email: 
--   Twitter: [@chrisalbon](https://twitter.com/chrisalbon)
-
-## Selected Experience
+## Experience
 
 -   **A**, [Devoted Health](http://www.devoted.com/), July 2018 - Present
     - a <span style="color: #9e9e9e;">_(Management)_</span>
@@ -37,7 +36,7 @@ outputs:
     - d <span style="color: #9e9e9e;">_(Management, Python, Scikit-Learn)_
     - d <span style="color: #9e9e9e;">_(System Design, Python)_</span>
 
-## Selected Projects
+## Projects
 -   **A**, [ChrisAlbon.com](https://chrisalbon.com), 2015 - Present
     - a
     - a

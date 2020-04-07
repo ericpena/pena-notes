@@ -155,11 +155,11 @@ body > .container {
 }
 
 a {
-  color: #0046B7;
+  color: #808B96; /*#0046B7*/
 }
 
 a:hover {
-  color: #FF6666; /*#0056FF*/
+  color: #E74C3C; /*#0056FF*/
 }
 
 .container {
@@ -240,8 +240,8 @@ Homepage
 }
 
 .homepage h3.category_header {
-  background-color: #f7f6f6;
-  color: rgb(84, 84, 84);
+  background-color: #333333;/*Was: #f7f6f6*/
+  color: #fff;/*Header Font Color; Was: rgb(84, 84, 84)*/
   padding: 10px 20px 10px 20px;
   border: solid 1px #e6e6e6;
   margin-bottom: 20px;
