@@ -590,7 +590,7 @@ Bug reporting
 Flashcards
 ---------------------------------------------------------*/
 
-.flashcard {
+/* .flashcard {
   max-height: 400px !important;
   -webkit-box-shadow: 8px 8px 5px -4px rgba(140,140,140,0.8);
   -moz-box-shadow: 8px 8px 5px -4px rgba(140,140,140,0.8);
@@ -598,12 +598,12 @@ Flashcards
   display: block;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 
-.flashcard_ad {
+/* .flashcard_ad {
   margin-bottom: 1.5em;
   font-size: 1.05em;
-}
+} */
 
 /* ---------------------------------------------------------
 Tables

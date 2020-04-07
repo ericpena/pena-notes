@@ -81,5 +81,5 @@ plt.show()
 
 
 
-![png](loading_scikit-learns_digits-dataset_7_1.png)
+![png](loading_scikit-learns_digits-dataset_files/loading_scikit-learns_digits-dataset_7_1.png)
 

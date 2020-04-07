@@ -1,11 +1,11 @@
 # README
 
 ## Todo
-* Fix About page
-* Change color
-* Add own categories and content
-* Change make.ipynb to make.py
-* Add .gifs and LaTeX work
+* ---Fix About page---
+* ---Change color---
+* ---Add own categories and content---
+* Fix make.ipynb bug 
+* Concert make.ipynb to make.py
 * Consider some [Hugo Maitenance](https://discourse.gohugo.io/t/advice-needed-regarding-hugo-dev-environment-on-mac/10156/12)
 
 ## Learnings

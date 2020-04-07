@@ -43,5 +43,5 @@ plt.show()
 ```
 
 
-![png](make_simulated_data_for_clustering_6_0.png)
+![png](make_simulated_data_for_clustering_files/make_simulated_data_for_clustering_6_0.png)
 
