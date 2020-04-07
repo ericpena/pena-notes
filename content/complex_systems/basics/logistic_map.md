@@ -1,4 +1,11 @@
-
+---
+title: "Logistic Map"
+author: "Eric Peña"
+date: 2020-04-07T11:53:49-07:00
+description: "Explaining Logistic Map and Bifurcation Behavior"
+type: technical_note
+draft: false
+---
 ## Logistic Map
 
 The famous logistic map is a recurrence relation or polynomial mapping of degree 2. It is a nonlinear difference equation capable of capturing complex nonlinear dynamical behavior including chaos. This map was popularized by the biologist Robert May in a [Nature article](https://www.researchgate.net/publication/237005499_Simple_Mathematical_Models_With_Very_Complicated_Dynamics) written in 1976. The equation is as follows:
