@@ -1,27 +1,45 @@
 @charset "UTF-8";
 
+:root {
+  --side-margin-bg-color: #112B3C;
+  --main-bg-color: #112B3C;
+  --footer-bg-color:#112B3C;
+  --link-color:#99C4C8;
+  --link-hover-color:#EB5353;
+  --nav-bar-color:#112B3C;
+  --nav-bar-text-left:#99C4C8;
+  --nav-bar-text-right:#DDDDDD;
+  --h3-category-header-bg:#333333;
+  --h3-category-header-text:#CECECE;
+  --h3-category-header-border:#333333;
+  --homepage-card-bg:#112B3C;
+  --homepage-card-body:#112B3C;
+  --homepage-card-border:#484848;
+  --homepage-card-header:#333333;
+}
+
 /* ---------------------------------------------------------
-/* Computer Modern font
+/* Computer Modern font -> Times New Roman font
 ---------------------------------------------------------*/
 
 @font-face {
-  font-family: "Computer Modern";
+  font-family: "Times New Roman";
   src: url(../fonts/cmunbi.ttf);
   font-weight: bold;
   font-style: italic, oblique;
 }
 @font-face {
-  font-family: "Computer Modern";
+  font-family: "Times New Roman";
   src: url(../fonts/cmunbx.ttf);
   font-weight: bold;
 }
 @font-face {
-  font-family: "Computer Modern";
+  font-family: "Times New Roman";
   src: url(../fonts/cmunti.ttf);
   font-style: italic, oblique;
 }
 @font-face {
-  font-family: "Computer Modern";
+  font-family: "Times New Roman";
   src: url(../fonts/cmunrm.ttf);
   font-weight: normal;
   font-style: normal;
@@ -127,8 +145,13 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  color: #505050;
-  font-family: 'Muli', sans-serif;
+  color: #CECECE;
+  font-family: "Times New Roman",
+  Times,
+  serif;
+  background-color: var(--side-margin-bg-color);
+  /* color: #505050; */
+  /* font-family: 'Muli', sans-serif; */
 }
 .footer {
   position: absolute;
@@ -147,19 +170,25 @@ Basic page styling
 
 body > .container {
   padding: 80px 15px 0;
+  background-color: var(--main-bg-color);
 }
 
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
+  background-color: var(--footer-bg-color);
+  /* dark mode */
 }
 
 a {
-  color: #808B96; /*#0046B7*/
+  color: var(--link-color);
+  /*#0046B7*/
+  /* font-style: italic; */
 }
 
 a:hover {
-  color: #E74C3C; /*#0056FF*/
+  color: var(--link-hover-color);
+  /*#0056FF*/
 }
 
 .container {
@@ -175,7 +204,9 @@ Header
 ---------------------------------------------------------*/
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Muli', sans-serif;
+  font-family: "Times New Roman",
+  Times,
+  serif;/*font-family: 'Muli', sans-serif;*/
   font-weight: bold;
 }
 
@@ -184,20 +215,22 @@ Navbar
 ---------------------------------------------------------*/
 
 .navbar {
-  background-color: #333333;/*EP Update*/
+  background-color: var(--nav-bar-color);
   border-bottom: 0px;
 }
 
 .navbar .navbar-brand, .navbar .navbar-brand:hover {
-  color: #fff;
+  color: var(--nav-bar-text-left);
   letter-spacing: 0.5px;
   font-weight: 700;
   text-transform: uppercase;
   font-size: .9em;
+  /* color: #fff; */
 }
 
 .navbar-nav > li > a {
-  color: #fff;
+  /* color: #fff; */
+  color: var(--nav-bar-text-right);
   text-transform: uppercase;
   font-size: .8em;
   font-weight: 500;
@@ -240,10 +273,14 @@ Homepage
 }
 
 .homepage h3.category_header {
-  background-color: #333333;/*Was: #f7f6f6*/
-  color: #fff;/*Header Font Color; Was: rgb(84, 84, 84)*/
+  background-color: var(--h3-category-header-bg);
+  /*Was: #f7f6f6*/
+  /* color: #fff;Header Font Color; Was: rgb(84, 84, 84) */
+  color: var(--h3-category-header-text);
   padding: 10px 20px 10px 20px;
-  border: solid 1px #e6e6e6;
+  /* border: solid 1px #e6e6e6; */
+  border: solid 1px var(--h3-category-header-border );
+  /* #484848; */
   margin-bottom: 20px;
 }
 
@@ -271,15 +308,19 @@ Homepage cards
 .homepage .card{
   border-radius: 0rem;
   margin-bottom: 20px;
+  background-color: var(--homepage-card-bg);
+  border: solid 1px var(--homepage-card-border);
 }
 
 .homepage .card-header {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: var(--homepage-card-header);
+  /* background-color: rgba(255, 255, 255, 1); */
 }
 
 .homepage .card-body ul{
     padding-left: 20px;
     margin-bottom: 0;
+    background-color: var(--homepage-card-body);
   }
 
   .homepage .card-body li{
@@ -325,7 +366,9 @@ Technical Notes
 ---------------------------------------------------------*/
 
 .technica_note, .page {
-  font-family: 'Muli', sans-serif;
+  font-family: "Times New Roman",
+  Times,
+  serif;/*font-family: 'Muli', sans-serif;*/
 }
 
 .technical_note .technical_note_date{
@@ -371,7 +414,9 @@ Non-Technical Notes
 
 .non-technical_note h1{
   font-weight: bold;
-  font-family: 'Muli', sans-serif;
+  font-family: "Times New Roman",
+  Times,
+  serif;/*font-family: 'Muli', sans-serif;*/
   text-align: center;
   margin-bottom:10px;
 }
@@ -381,7 +426,9 @@ Non-Technical Notes
 }
 
 .non-technical_note .content{
-  font-family: "Computer Modern", serif;
+  font-family: "Times New Roman",
+  Times,
+  serif;/*font-family: "Computer Modern", serif;*/
 }
 
 .non-technical_note .content p, .non-technical_note .content li{
@@ -446,7 +493,10 @@ Articles
 
 .article h1{
   font-weight: bold;
-  font-family: 'Muli', sans-serif;
+  font-family: "Times New Roman",
+  Times,
+  serif;
+  /*font-family: 'Muli', sans-serif;*/
   text-align: center;
   margin-bottom:10px;
 }
@@ -456,7 +506,10 @@ Articles
 }
 
 .article .content{
-  font-family: "Computer Modern", serif;
+  font-family: "Times New Roman",
+  Times,
+  serif;
+  /*font-family: 'Muli', sans-serif;*/
 }
 
 .article .content p, .article .content li{
@@ -482,32 +535,45 @@ Articles
 .article .article_date{
   font-size: 1.4em;
   text-align: center;
-  font-family: 'Muli', sans-serif;
+  font-family: "Times New Roman",
+  Times,
+  serif;
+  /* font-family: 'Muli', sans-serif; */
 }
 
 .article h2{
   font-size: 1.6em;
   margin-top: 1em;
   margin-bottom: .5em;
-  font-family: 'Muli', sans-serif;
+  font-family: "Times New Roman", Times, serif;
+  /* font-family: 'Muli', sans-serif; */
   font-weight: bold;
 }
 
 .article h3{
   font-size: 1.4em;
-  font-family: 'Muli', sans-serif;
+    font-family: "Times New Roman",
+  Times,
+  serif;
+  /*font-family: 'Muli', sans-serif;*/
   font-weight: bold;
 }
 
 .article h4{
   font-size: 1.2em;
-  font-family: 'Muli', sans-serif;
+    font-family: "Times New Roman",
+  Times,
+  serif;
+  /*font-family: 'Muli', sans-serif;*/
   font-weight: bold;
 }
 
 .article h5{
   font-size: 1.1em;
-  font-family: 'Muli', sans-serif;
+    font-family: "Times New Roman",
+  Times,
+  serif;
+  /*font-family: 'Muli', sans-serif;*/
   font-weight: bold;
 }
 
@@ -524,7 +590,8 @@ Biography
 .biography p{
   margin: 0;
   font-style: italic;
-  font-family: "Computer Modern";
+  font-family: "Times New Roman", Times, serif;
+  /* font-family: "Computer Modern"; */
   font-size: 1.2em;
   color:#666666;
 }
@@ -534,7 +601,7 @@ Code
 ---------------------------------------------------------*/
 
 pre code{
-  color:#747474;
+  color: #CECECE; /*#e6e6e6*/ /*#747474;*/
 }
 
 pre {
@@ -557,7 +624,7 @@ Images
 img{
   max-width: 100%;
   height: auto;
-  width: 100%\9; /* ie8 */
+  /* width: 100%; ie8 */
   display:block;
     margin-left: auto;
     margin-right: auto;

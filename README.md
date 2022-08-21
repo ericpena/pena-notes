@@ -3,8 +3,8 @@
 # WELCOME TO PEÑA NOTES!
 
 ## Todo (SELF)
-* <s>Fix About page</s>
-* <s>Change color</s>
+* ~Fix About page~
+* ~Change color~
 * ~Add own categories and content~
 * Automatically add meta data to technical notes
 * Fix make.ipynb bug 
@@ -17,6 +17,16 @@
 * Can add images to markdown files with `![png](images/page.jpg)`
 * Can change publish directory with `publishDir="../ericpena.github.io"`
 * Stay Oganized!
+
+HUGO Live Reload Feature
+source: https://gohugo.io/getting-started/usage/
+```
+- go into portfolio directory
+- type hugo server
+- open browser and enter http://localhost:1313/
+- changes will be updated live
+- any final changes must be officially commited
+```
 
 Theme code update: index.html
 ```html

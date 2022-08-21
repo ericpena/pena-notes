@@ -26,8 +26,8 @@
         crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <link href="{{ .Site.BaseURL }}css/custom.css" rel="stylesheet"> 
-    <link href="{{ .Site.BaseURL }}css/syntax.css" rel="stylesheet">
+    <link href="{{ .Site.BaseURL }}/css/custom.css" rel="stylesheet">
+    <link href="{{ .Site.BaseURL }}/css/syntax.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,500,700" rel="stylesheet">
 
     <!-- RSS feed for all posts -->
@@ -43,7 +43,7 @@
 
     <nav class="navbar navbar-expand-sm fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="{{ .Site.BaseURL }}">Eric Peña</a>
+            <a class="navbar-brand" href="{{ .Site.BaseURL }}/about/eric_pena.html">Eric Peña</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -53,14 +53,22 @@
                     <ul class="nav navbar-nav mr-auto"></ul>
                 <ul class="navbar-nav">
 
-                    <li class="nav-item dropdown">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}">PEÑA NOTES</a>
+                    </li>
+
+                    <!-- {% comment %}
+                        Below is code that creates a drop down list for the topics of Pena Notes --- uncomment if you want to enable.
+                    {% endcomment %} -->
+
+                    <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">
-                            Peña Notes
+                            TOPIC
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{{ .Site.BaseURL }}#physics">Physics</a>
-                            <a class="dropdown-item" href="{{ .Site.BaseURL }}#complex_systems">Machine Learning</a>
+                            <a class="dropdown-item" href="{{ .Site.BaseURL }}#complex_systems">Complex Systems</a>
                             <a class="dropdown-item" href="{{ .Site.BaseURL }}#mathematics">Mathematics</a>
                             <a class="dropdown-item" href="{{ .Site.BaseURL }}#statistics">Statistics</a>
                             <a class="dropdown-item" href="{{ .Site.BaseURL }}#network_science">Network Science</a>
@@ -70,24 +78,26 @@
                             <a class="dropdown-item" href="{{ .Site.BaseURL }}#julia">Julia</a>
                             <a class="dropdown-item" href="{{ .Site.BaseURL }}#r_programming">R Programming</a>
                         </div>
-                    </li>
-                    <li class="nav-item">
+                    </li> -->
+
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="{{ .Site.BaseURL }}#projects">Projects</a>
-                    </li>
+                    </li> -->
 
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ .Site.BaseURL }}#articles">Articles</a>
+                        <a class="nav-link" href="{{ .Site.BaseURL }}/about/eric_pena.html">About Me</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">
-                            About
+                            CONNECT
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{ .Site.BaseURL }}about/eric_pena.html">About E.Peña</a>
-                            <a class="dropdown-item" href="https://github.com/ericpena" target="_blank">GitHub</a>
-                            <a class="dropdown-item" href="https://twitter.com/ericpenaphysics" target="_blank">Twitter</a>
                             <a class="dropdown-item" href="https://www.linkedin.com/in/eric-pena/" target="_blank">LinkedIn</a>
+                            <a class="dropdown-item" href="https://twitter.com/ericpenax" target="_blank">Twitter</a>
+                            <!-- <a class="dropdown-item" href="https://www.instagram.com/ericpena/" target="_blank">Instagram</a> -->
+                            <!-- <a class="dropdown-item" href="https://github.com/ericpena" target="_blank">GitHub</a> -->
+                            <!-- <a class="dropdown-item" href="mailto:eric.pena@binghamton.edu" target="_blank">Email</a> -->
                             <!-- <a class="dropdown-item" href="https://www.amazon.com/Machine-Learning-Python-Cookbook-Preprocessing/dp/1491989386">ML Book</a> -->
                             <!-- <a class="dropdown-item" href="https://machinelearningflashcards.com/">ML Flashcards</a> -->
                             <!--<a class="dropdown-item" href="{{ .Site.BaseURL }}#">Newsletter</a>-->
@@ -97,7 +107,6 @@
             </div>
         </div>
     </nav>
-
 
     <!-- Page Content -->
     <div class="container">
@@ -117,7 +126,7 @@
 
     <footer class="footer text-center">
         <div class="container">
-            <span class="text-muted">Copyright &copy; Eric Peña, <time datetime="2020">2020</time>. All {{ len .Site.RegularPages }} notes and articles are available on <a href="https://github.com/ericpena/">GitHub</a>.</span>
+            <span class="text-muted">Copyright &copy; Eric Peña, <time datetime="2021">2021</time>. All {{ len .Site.RegularPages }} notes and articles are available on <a href="https://github.com/ericpena/">GitHub</a>.</span>
         </div>
     </footer>
 

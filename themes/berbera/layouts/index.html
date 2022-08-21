@@ -1,37 +1,46 @@
 {{ define "main" }}
+
 <main>
     <div class="homepage">
+        
         <div class="row">
             <div class="col-sm-12">
                 <h1>
-                    <span class="minor_line">Eric Peña</span>
-                    <br>
-                    <span class="major_line">Collective Dynamics of Complex Systems</span>
-                    <br>
-                    <span class="minor_line">Mathematical Methods and Related Topics in Science</span>
+                    <span class="minor_line">Data Science, Mathematical Modeling, and Complexity</span>
+                    <hr>
+                    <!-- <br> -->
+                    <!-- <span class="major_line">Eric Peña</span> -->
+                    <!-- <img src="images/machine_learning_flashcards/traffic.gif" class="img-responsive" alt="."> -->
+                    <!-- <br> -->
+                    <!-- <span class="minor_line"><b><mark>UNDER CONSTRUCTION</mark></b></span> -->
                 </h1>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12 blurb">
                 <p>
-                    <a href="about/eric_pena.html">Eric Peña</a> is a graduate student and Clark Fellow at <a href="https://www.binghamton.edu/">State University of New York at Binghamton</a>. Notes will be added over time as I sort through and compile all my work.
+                    <b>Hello, I'm Eric!</b>  I'm interested in Data Science, Mathematical Modeling, and Teaching. Notes will be added to this site over time as I sort through and compile all of my work. I've studied physics, computer science, machine learning, and systems modeling.
+                </p>
+                <p>
+                    [The animation above shows the one dimensional <a href="https://en.wikipedia.org/wiki/Rule_184#:~:text=Rule%20184%20can%20be%20understood,particles%20remains%20unchanged%20or%20decreases.">Cellular Automata Rule 184</a> – often used to model traffic flow. I created this using <a
+                        href="https://www.wolfram.com/mathematica/">Wolfram Mathematica</a>.]
                 </p>
             </div>
         </div>
 <!-----------------------------------------------------------------------------
-                                PHYSICS
+                                MATH + COMPLEX SYSTEMS
 ------------------------------------------------------------------------------>
-        <div class="row" id="physics">
+        <img src="images/machine_learning_flashcards/notes_img_lines.png" width="400" class="img-responsive" alt=".">
+        <div class="row" id="notes">
             <div class="col-sm-12">
-                <h3 class="category_header">Physics</h3>
+                <h3 class="category_header">Math + Complex Systems</h3>
             </div>
         </div>
 
-        <!-- <div class="row">
+        <div class="row">
             <div class="col-sm-12">
                 <div class="card">
-                    <h4 class="card-header">Basics</h4>
+                    <!-- <h4 class="card-header">Header Example</h4> -->
                     <div class="card-body">
                         <ul>
                             {{ $section := site.GetPage "physics/basics" }}
@@ -41,20 +50,121 @@
                                 {{ end }}
                             {{ end }}
                         </ul>
+                        <ul>
+                            {{ $section := site.GetPage "complex_systems/basics" }}
+                            {{ with $section }}
+                                {{ range .Pages }}
+                                    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                                {{ end }}
+                            {{ end }}
+                        </ul>
+                        <ul>
+                            {{ $section := site.GetPage "statistics/basics" }}
+                            {{ with $section }}
+                                {{ range .Pages }}
+                                    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                                {{ end }}
+                            {{ end }}
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Statistical Rethinking Notes</h4>
+                    <div class="card-body">
+                        <ul>
+                            {{ $section := site.GetPage "statistics/statistical-rethinking" }}
+                            {{ with $section }}
+                            {{ range .Pages }}
+                            <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                            {{ end }}
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-----------------------------------------------------------------------------
+                                MACHINE LEARNING
+------------------------------------------------------------------------------>
+        <img src="images/machine_learning_flashcards/notes_img_clusters.png" width="400" class="img-responsive" alt=".">
+        <div class="row" id="machine_learning">
+            <div class="col-sm-12">
+                <h3 class="category_header">Machine Learning</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <!-- <h4 class="card-header">General</h4> -->
+                    <div class="card-body">
+                        <ul>
+                            {{ $section := site.GetPage "machine_learning/basics" }}
+                            {{ with $section }}
+                                {{ range .Pages }}
+                                    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                                {{ end }}
+                            {{ end }}
+                        </ul>
+                        <ul>
+                            {{ $section := site.GetPage "machine_learning/optimization" }}
+                            {{ with $section }}
+                                {{ range .Pages }}
+                                    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                                {{ end }}
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-----------------------------------------------------------------------------
+                                PROGRAMMING
+------------------------------------------------------------------------------>
+        <div class="row" id="r_programming">
+            <div class="col-sm-12">
+                <h3 class="category_header">Programming</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <ul>
+                            {{ $section := site.GetPage "r_programming/basics" }}
+                            {{ with $section }}
+                                {{ range .Pages }}
+                                    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                                {{ end }}
+                            {{ end }}
+                        </ul>
+                        <ul>
+                            {{ $section := site.GetPage "julia/basics" }}
+                            {{ with $section }}
+                                {{ range .Pages }}
+                                    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                                {{ end }}
+                            {{ end }}
+                        </ul>             
+                    </div>
+                </div>
+            </div>
+        </div>
 <!-----------------------------------------------------------------------------
                                 COMPLEX SYSTEMS
 ------------------------------------------------------------------------------>
-        <div class="row" id="complex_systems">
+<!--         <div class="row" id="complex_systems">
             <div class="col-sm-12">
                 <h3 class="category_header">Complex Systems</h3>
             </div>
-        </div>
+        </div> -->
     
-        <div class="row">
+<!--         <div class="row">
             <div class="col-sm-12">
                 <div class="card">
                     <h4 class="card-header">Basics</h4>
@@ -70,15 +180,15 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 <!-----------------------------------------------------------------------------
                                 MATHEMATICS
 ------------------------------------------------------------------------------>
-        <div class="row" id="mathematics">
+        <!-- <div class="row" id="mathematics">
             <div class="col-sm-12">
                 <h3 class="category_header">Mathematics</h3>
             </div>
-        </div>
+        </div> -->
 
         <!-- <div class="row">
             <div class="col-sm-12">
@@ -100,13 +210,13 @@
 <!-----------------------------------------------------------------------------
                                 STATISTICS
 ------------------------------------------------------------------------------>
-        <div class="row" id="statistics">
+<!--         <div class="row" id="statistics">
             <div class="col-sm-12">
                 <h3 class="category_header">Statistics</h3>
             </div>
-        </div>
+        </div> -->
 
-        <!-- <div class="row">
+<!--         <div class="row">
             <div class="col-sm-12">
                 <div class="card">
                     <h4 class="card-header">Basics</h4>
@@ -126,11 +236,11 @@
 <!-----------------------------------------------------------------------------
                                 NETWORK SCIENCE
 ------------------------------------------------------------------------------>
-        <div class="row" id="network_science">
+        <!-- <div class="row" id="network_science">
             <div class="col-sm-12">
                 <h3 class="category_header">Network Science</h3>
             </div>
-        </div>
+        </div> -->
 
         <!-- <div class="row">
             <div class="col-sm-12">
@@ -150,39 +260,13 @@
             </div>
         </div> -->
 <!-----------------------------------------------------------------------------
-                                MACHINE LEARNING
------------------------------------------------------------------------------->
-        <div class="row" id="machine_learning">
-            <div class="col-sm-12">
-                <h3 class="category_header">Machine Learning</h3>
-            </div>
-        </div>
-
-        <!-- <div class="row">
-                <div class="col-sm-12">
-                    <div class="card">
-                        <h4 class="card-header">Basics</h4>
-                        <div class="card-body">
-                            <ul>
-                                {{ $section := site.GetPage "machine_learning/basics" }}
-                                {{ with $section }}
-                                    {{ range .Pages }}
-                                        <li><a href="{{.Permalink}}">{{.Title}}</a></li>
-                                    {{ end }}
-                                {{ end }}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-<!-----------------------------------------------------------------------------
                                 PYTHON
 ------------------------------------------------------------------------------>
-        <div class="row" id="python">
+        <!-- <div class="row" id="python">
             <div class="col-sm-12">
                 <h3 class="category_header">Python</h3>
             </div>
-        </div>
+        </div> -->
 
         <!-- <div class="row">
             <div class="col-sm-12">
@@ -204,11 +288,11 @@
 <!-----------------------------------------------------------------------------
                                 MATHEMATICA
 ------------------------------------------------------------------------------>
-        <div class="row" id="mathematica">
+        <!-- <div class="row" id="mathematica">
             <div class="col-sm-12">
                 <h3 class="category_header">Mathematica</h3>
             </div>
-        </div>
+        </div> -->
 
         <!-- <div class="row">
             <div class="col-sm-12">
@@ -230,11 +314,11 @@
 <!-----------------------------------------------------------------------------
                                 JULIA
 ------------------------------------------------------------------------------>
-        <div class="row" id="julia">
+        <!-- <div class="row" id="julia">
             <div class="col-sm-12">
                 <h3 class="category_header">Julia</h3>
             </div>
-        </div>
+        </div> -->
 
         <!-- <div class="row">
             <div class="col-sm-12">
@@ -256,13 +340,13 @@
 <!-----------------------------------------------------------------------------
                                 R
 ------------------------------------------------------------------------------>
-        <div class="row" id="r_programming">
+<!--         <div class="row" id="r_programming">
             <div class="col-sm-12">
                 <h3 class="category_header">R Programming</h3>
             </div>
-        </div>
+        </div> -->
 
-        <!-- <div class="row">
+<!--         <div class="row">
             <div class="col-sm-12">
                 <div class="card">
                     <h4 class="card-header">Basics</h4>
@@ -280,13 +364,13 @@
             </div>
         </div> -->
 <!-----------------------------------------------------------------------------
-                                DATA SCIENCE MANAGEMENT
+                                PROJECTS
 ------------------------------------------------------------------------------>
-        <div class="row" id="projects">
+        <!-- <div class="row" id="projects">
             <div class="col-sm-12">
                 <h3 class="category_header">Projects</h3>
             </div>
-        </div>
+        </div> -->
 
         <!-- <div class="row">
             <div class="col-sm-12">
@@ -309,12 +393,14 @@
 ------------------------------------------------------------------------------>
         <div class="row" id="articles">
             <div class="col-sm-12">
-                <h3 class="category_header">Articles<!-- <a style="float: right;" href="{{ .Site.BaseURL }}/articles/index.xml">RSS</a>-->
+                <h3 class="category_header">Articles<!-- <a style="float: right;" href="{{ .Site.BaseURL }}/articles/index.xml">RSS</a> -->
                 </h3>
             </div>
         </div>
 
-        <!-- <div class="row">
+        <img src="images/machine_learning_flashcards/traffic.gif" class="img-responsive" alt=".">
+
+        <div class="row">
             <div class="col-sm-12">
                 <div class="card">
                     <div class="article_list card-body">
@@ -329,7 +415,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
 <!-----------------------------------------------------------------------------
                                 END
 ------------------------------------------------------------------------------>        
