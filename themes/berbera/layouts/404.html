@@ -13,9 +13,7 @@
             <p>You have found a link that is broken. However, there is hope. Here is every single page on the site listed alphabetically. Use <code>control-f</code> (Windows) or <code>cmd-f</code> (MacOS) to search page titles.</p>
             <ul>
               {{ range (.Pages).ByTitle }}
-              <li>
-                <a href="{{.Permalink}}">{{.URL}}</a>
-              </li>
+
               {{ end }}
             </ul>
           </div>
