@@ -32,15 +32,15 @@
 ------------------------------------------------------------------------------>
         <img src="images/machine_learning_flashcards/notes_img_lines.png" width="400" class="img-responsive" alt=".">
         <div class="row" id="notes">
-            <div class="col-sm-12">
+            <!-- <div class="col-sm-12">
                 <h3 class="category_header">Math + Complex Systems</h3>
-            </div>
+            </div> -->
         </div>
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm-12">
                 <div class="card">
-                    <!-- <h4 class="card-header">Header Example</h4> -->
+                    <h4 class="card-header">Header Example</h4>
                     <div class="card-body">
                         <ul>
                             {{ $section := site.GetPage "physics/basics" }}
@@ -69,9 +69,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="row">
-            <div class="col-sm-12">
+            <!-- <div class="col-sm-12">
                 <div class="card">
                     <h4 class="card-header">Statistical Rethinking Notes</h4>
                     <div class="card-body">
@@ -85,54 +85,38 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
 <!-----------------------------------------------------------------------------
                                 MACHINE LEARNING
 ------------------------------------------------------------------------------>
-        <img src="images/machine_learning_flashcards/notes_img_clusters.png" width="400" class="img-responsive" alt=".">
         <div class="row" id="machine_learning">
-            <div class="col-sm-12">
+            <!-- <div class="col-sm-12">
                 <h3 class="category_header">Machine Learning</h3>
-            </div>
+            </div> -->
         </div>
 
         <div class="row">
-            <div class="col-sm-12">
+            <!-- <div class="col-sm-12">
                 <div class="card">
-                    <!-- <h4 class="card-header">General</h4> -->
+                    <h4 class="card-header">General</h4>
                     <div class="card-body">
-                        <ul>
-                            {{ $section := site.GetPage "machine_learning/basics" }}
-                            {{ with $section }}
-                                {{ range .Pages }}
-                                    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
-                                {{ end }}
-                            {{ end }}
-                        </ul>
-                        <ul>
-                            {{ $section := site.GetPage "machine_learning/optimization" }}
-                            {{ with $section }}
-                                {{ range .Pages }}
-                                    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
-                                {{ end }}
-                            {{ end }}
-                        </ul>
+
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
 <!-----------------------------------------------------------------------------
                                 PROGRAMMING
 ------------------------------------------------------------------------------>
         <div class="row" id="r_programming">
-            <div class="col-sm-12">
+            <!-- <div class="col-sm-12">
                 <h3 class="category_header">Programming</h3>
-            </div>
+            </div> -->
         </div>
 
         <div class="row">
-            <div class="col-sm-12">
+            <!-- <div class="col-sm-12">
                 <div class="card">
                     <div class="card-body">
                         <ul>
@@ -150,10 +134,10 @@
                                     <li><a href="{{.Permalink}}">{{.Title}}</a></li>
                                 {{ end }}
                             {{ end }}
-                        </ul>             
+                        </ul>     
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
 <!-----------------------------------------------------------------------------
                                 COMPLEX SYSTEMS
@@ -392,10 +376,10 @@
                                 ARTICLES
 ------------------------------------------------------------------------------>
         <div class="row" id="articles">
-            <div class="col-sm-12">
-                <h3 class="category_header">Articles<!-- <a style="float: right;" href="{{ .Site.BaseURL }}/articles/index.xml">RSS</a> -->
+            <!-- <div class="col-sm-12">
+                <h3 class="category_header">Articles <a style="float: right;" href="{{ .Site.BaseURL }}/articles/index.xml">RSS</a>
                 </h3>
-            </div>
+            </div> -->
         </div>
 
         <img src="images/machine_learning_flashcards/traffic.gif" class="img-responsive" alt=".">
@@ -412,10 +396,75 @@
                                 {{ end }}
                             {{ end }}
                         </ul>
+                        <ul>
+                            {{ $section := site.GetPage "physics/basics" }}
+                            {{ with $section }}
+                                {{ range .Pages }}
+                                    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                                {{ end }}
+                            {{ end }}
+                        </ul>
+                        <ul>
+                            {{ $section := site.GetPage "complex_systems/basics" }}
+                            {{ with $section }}
+                                {{ range .Pages }}
+                                    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                                {{ end }}
+                            {{ end }}
+                        </ul>
+                        <ul>
+                            {{ $section := site.GetPage "statistics/basics" }}
+                            {{ with $section }}
+                                {{ range .Pages }}
+                                    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                                {{ end }}
+                            {{ end }}
+                        </ul>
+                        <ul>
+                            {{ $section := site.GetPage "machine_learning/basics" }}
+                            {{ with $section }}
+                                {{ range .Pages }}
+                                    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                                {{ end }}
+                            {{ end }}
+                        </ul>
+                        <ul>
+                            {{ $section := site.GetPage "machine_learning/optimization" }}
+                            {{ with $section }}
+                                {{ range .Pages }}
+                                    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                                {{ end }}
+                            {{ end }}
+                        </ul>
+                        <ul>
+                            {{ $section := site.GetPage "r_programming/basics" }}
+                            {{ with $section }}
+                                {{ range .Pages }}
+                                    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                                {{ end }}
+                            {{ end }}
+                        </ul>
+                        <ul>
+                            {{ $section := site.GetPage "julia/basics" }}
+                            {{ with $section }}
+                                {{ range .Pages }}
+                                    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                                {{ end }}
+                            {{ end }}
+                        </ul>
+                        <ul>
+                            {{ $section := site.GetPage "statistics/statistical-rethinking" }}
+                            {{ with $section }}
+                            {{ range .Pages }}
+                            <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                            {{ end }}
+                            {{ end }}
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
+        <img src="images/machine_learning_flashcards/notes_img_clusters.png" width="400" class="img-responsive" alt=".">
 <!-----------------------------------------------------------------------------
                                 END
 ------------------------------------------------------------------------------>        

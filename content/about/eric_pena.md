@@ -19,16 +19,18 @@ outputs:
 * B.S. in [Engineering Physics][8] as a [Young Scholar][9] at [The Ohio State University][7].
 ------------------------------------------------
 ## Talks, Publications, and Posters
+-   **Conference on Artificial Life (ALIFE) 2022**
+    - **([talk](eric_pena/life_abstract.pdf))** *Life Worth Mentioning*
 -   **Wolfram Demonstration Project 2022**
     - **([demonstration][11])** *Cellular Automata with Modified Game-of-Life Rules*
 -   **Artificial Life Journal 2021**
     - **([publication][4])** *Life Worth Mentioning: Complexity of Life-Like Cellular Automata*
--   **Conference on Complex Systems 2021**
+-   **Conference on Complex Systems (CCS) 2021**
     - **([talk](eric_pena/life_abstract.pdf))** *Life Worth Mentioning*
--   **Norteast Regional Conference on Complex Systems 2021**
+-   **Norteast Regional Conference on Complex Systems (NERCCS) 2021**
     - **([talk](eric_pena/life_abstract.pdf))** *Complexity in Conway's Game of Life and other Life-Like Cellular Automata*
     - **([poster](eric_pena/bayesian_poster.pdf))** *Bayesian Sparse Network Reconstruction*
--   **Norteast Regional Conference on Complex Systems 2020**
+-   **Norteast Regional Conference on Complex Systems (NERCCS) 2020**
     - **([poster][5])** Cellular Automata Optimization using Genetic Algorithms
 ------------------------------------------------
 ## Experience
@@ -41,6 +43,7 @@ outputs:
 -   **Physics Demonstrations Assistant**, [OSU Physics](https://www.physics.osu.edu)
 ------------------------------------------------
 ## Awards
+-   **Mobilizer Award ([post](https://twitter.com/motionaldrive/status/1547624744559603714))**, Awarded by Motional (2022)
 -   **Graduate Service to Department in Systems Science Award ([post](https://www.linkedin.com/feed/update/urn:li:activity:6805558790239346689/))**, Awarded by Binghamton University (2021)
 -   **Honorable Mention for Best Poster Award ([post](https://twitter.com/ericpenax/status/1246217917043224577))**, Awarded by Northeast Regional Conference on Complex Systems (2020)
 -   **Clifford D. Clark Diversity Fellow ([link](https://www.bupipedream.com/news/29417/clifford-clark/))**, Two years — Awarded by Binghamton University (2019—2021)

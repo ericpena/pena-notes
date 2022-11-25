@@ -40,5 +40,7 @@ Theme code update: index.html
 </ul>
 ```
 
+HUGO upload
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

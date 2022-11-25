@@ -1,5 +1,5 @@
 ---
-title: "Chapter 2"
+title: "Statistical Rethinking Chapter 2 Exercises"
 author: "Eric Peña"
 date: 2022-04-23T00:00:00-07:00
 description: "Statistical Rethinking Chapter 2"
