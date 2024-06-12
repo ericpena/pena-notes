@@ -10,15 +10,19 @@ outputs:
 ---
 
 ![ericpena](eric_pena/eric_pena_cut_30.jpg)
-
 *Photo Credit: Samuel Sung*
+
+Hi, I'm Eric! I've studied physics, computer science, machine learning, and complex systems modeling.
 
 ## About Me
 * Data Scientist interested in Complex Systems
 * M.S. in [Complex Systems Science][1] as a [Clifford D. Clark Diversity Fellow][2] at the [State University of New York at Binghamton][3] and studied machine learning and complex systems modeling.
 * B.S. in [Engineering Physics][8] as a [Young Scholar][9] at [The Ohio State University][7].
+
 ------------------------------------------------
 ## Talks, Publications, and Posters
+-   **IEEE Transactions on Network Science and Engineering Journal 2024**
+    -   **(publication pending...)** Sparse Bayesian Learning for Sequential Inference of Network Connectivity from Small Data
 -   **Conference on Artificial Life (ALIFE) 2022**
     - **([talk](eric_pena/life_abstract.pdf))** *Life Worth Mentioning*
 -   **Wolfram Demonstration Project 2022**
@@ -34,7 +38,7 @@ outputs:
     - **([poster][5])** Cellular Automata Optimization using Genetic Algorithms
 ------------------------------------------------
 ## Experience
--   **Data Scientist**, [Motional](https://www.motional.com/)
+-   **Senior Data Scientist**, [Motional](https://www.motional.com/)
 -   **Statistics and Probability Teacher**, [SUNY Binghamton](https://www.binghamton.edu)
 -   **Revenue Management Senior Data Analyst**, [Diageo](https://www.diageo.com)
 -   **Math and Physics Tutor**, Self-Employed
@@ -43,6 +47,7 @@ outputs:
 -   **Physics Demonstrations Assistant**, [OSU Physics](https://www.physics.osu.edu)
 ------------------------------------------------
 ## Awards
+-   **Mobilizer Award**, Awarded by Motional (2023)
 -   **Mobilizer Award ([post](https://twitter.com/motionaldrive/status/1547624744559603714))**, Awarded by Motional (2022)
 -   **Graduate Service to Department in Systems Science Award ([post](https://www.linkedin.com/feed/update/urn:li:activity:6805558790239346689/))**, Awarded by Binghamton University (2021)
 -   **Honorable Mention for Best Poster Award ([post](https://twitter.com/ericpenax/status/1246217917043224577))**, Awarded by Northeast Regional Conference on Complex Systems (2020)

@@ -1,8 +1,26 @@
 @charset "UTF-8";
 
+/* :root {
+  --side-margin-bg-color:#FCFFE7;
+  --main-bg-color:#FCFFE7;
+  --footer-bg-color:#FCFFE7;
+  --link-color:#3E54AC;
+  --link-hover-color:#E96479;
+  --nav-bar-color:#BAD7E9;
+  --nav-bar-text-left:#3E54AC;
+  --nav-bar-text-right:#3E54AC;
+  --h3-category-header-bg:#E96479;
+  --h3-category-header-text:#FCFFE7;
+  --h3-category-header-border:#FCFFE7;
+  --homepage-card-bg:#BAD7E9;
+  --homepage-card-body:#BAD7E9;
+  --homepage-card-border:#FCFFE7;
+  --homepage-card-header:#3E54AC;
+} */
+
 /*FAF9F6 --> off white*/
 
-/* :root {
+:root {
   --side-margin-bg-color:#FFFFFF;
   --main-bg-color:#FFFFFF;
   --footer-bg-color:#FFFFFF;
@@ -18,25 +36,6 @@
   --homepage-card-body:#BAD7E9;
   --homepage-card-border:#FFFFFF;
   --homepage-card-header:#3E54AC;
-} */
-/* d9d9d9 */
-
-:root {
-  --side-margin-bg-color:#FFFFFF;
-  --main-bg-color:#FFFFFF;
-  --footer-bg-color:#FFFFFF;
-  --link-color:#403d39;
-  --link-hover-color:#00a8e8;
-  --nav-bar-color:#403d39;
-  --nav-bar-text-left:#FFFFFF;
-  --nav-bar-text-right:#FFFFFF;
-  --h3-category-header-bg:#403d39;
-  --h3-category-header-text:#FFFFFF;
-  --h3-category-header-border:#FFFFFF;
-  --homepage-card-bg:#FFFFFF;
-  --homepage-card-body:#FFFFFF;
-  --homepage-card-border:#FFFFFF;
-  --homepage-card-header:#403d39;
 }
 
 /* ---------------------------------------------------------
@@ -191,8 +190,8 @@ Basic page styling
 /* Not required for template or sticky footer method. */
 
 body > .container {
-  padding: 80px 15px 0;
-  /* padding: 55px 100px 0; */
+  /* padding: 80px 15px 0; */
+  padding: 55px 100px 0;
   background-color: var(--main-bg-color);
 }
 
@@ -270,7 +269,7 @@ Homepage
 
 .homepage h1 {
   text-align: center;
-  margin: 5px 0px 10px;
+  margin: 20px 0px 50px;
   line-height: 1em;
 }
 
@@ -343,7 +342,7 @@ Homepage cards
 }
 
 .homepage .card-body ul{
-    padding-left: 40px;
+    padding-left: 20px;
     margin-bottom: 0;
     background-color: var(--homepage-card-body);
   }

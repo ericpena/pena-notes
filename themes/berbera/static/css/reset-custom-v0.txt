@@ -1,8 +1,26 @@
 @charset "UTF-8";
 
+/* :root {
+  --side-margin-bg-color:#FCFFE7;
+  --main-bg-color:#FCFFE7;
+  --footer-bg-color:#FCFFE7;
+  --link-color:#3E54AC;
+  --link-hover-color:#E96479;
+  --nav-bar-color:#BAD7E9;
+  --nav-bar-text-left:#3E54AC;
+  --nav-bar-text-right:#3E54AC;
+  --h3-category-header-bg:#E96479;
+  --h3-category-header-text:#FCFFE7;
+  --h3-category-header-border:#FCFFE7;
+  --homepage-card-bg:#BAD7E9;
+  --homepage-card-body:#BAD7E9;
+  --homepage-card-border:#FCFFE7;
+  --homepage-card-header:#3E54AC;
+} */
+
 /*FAF9F6 --> off white*/
 
-/* :root {
+:root {
   --side-margin-bg-color:#FFFFFF;
   --main-bg-color:#FFFFFF;
   --footer-bg-color:#FFFFFF;
@@ -18,25 +36,6 @@
   --homepage-card-body:#BAD7E9;
   --homepage-card-border:#FFFFFF;
   --homepage-card-header:#3E54AC;
-} */
-/* d9d9d9 */
-
-:root {
-  --side-margin-bg-color:#FFFFFF;
-  --main-bg-color:#FFFFFF;
-  --footer-bg-color:#FFFFFF;
-  --link-color:#403d39;
-  --link-hover-color:#00a8e8;
-  --nav-bar-color:#403d39;
-  --nav-bar-text-left:#FFFFFF;
-  --nav-bar-text-right:#FFFFFF;
-  --h3-category-header-bg:#403d39;
-  --h3-category-header-text:#FFFFFF;
-  --h3-category-header-border:#FFFFFF;
-  --homepage-card-bg:#FFFFFF;
-  --homepage-card-body:#FFFFFF;
-  --homepage-card-border:#FFFFFF;
-  --homepage-card-header:#403d39;
 }
 
 /* ---------------------------------------------------------
@@ -192,7 +191,6 @@ Basic page styling
 
 body > .container {
   padding: 80px 15px 0;
-  /* padding: 55px 100px 0; */
   background-color: var(--main-bg-color);
 }
 
@@ -270,7 +268,7 @@ Homepage
 
 .homepage h1 {
   text-align: center;
-  margin: 5px 0px 10px;
+  margin: 0px 0px 30px 0px;
   line-height: 1em;
 }
 
@@ -338,12 +336,11 @@ Homepage cards
 
 .homepage .card-header {
   background-color: var(--homepage-card-header);
-  color: #FFFFFF;
   /* background-color: rgba(255, 255, 255, 1); */
 }
 
 .homepage .card-body ul{
-    padding-left: 40px;
+    padding-left: 20px;
     margin-bottom: 0;
     background-color: var(--homepage-card-body);
   }
@@ -439,15 +436,13 @@ Non-Technical Notes
 ---------------------------------------------------------*/
 
 .non-technical_note h1{
-  /* font-weight: bold; */
+  font-weight: bold;
   /* font-family: "Times New Roman",
   Times,
   serif; */
-  font-size: 2em;
-  /* font-family: 'Muli', sans-serif; */
-  font-family: Consolas, monaco, monospace;
+  font-family: 'Muli', sans-serif;
   text-align: center;
-  margin-bottom:5px;
+  margin-bottom:10px;
 }
 
 .non-technical_note header {
@@ -455,35 +450,21 @@ Non-Technical Notes
 }
 
 .non-technical_note .content{
-  font-family: "Times New Roman",Times,serif;
+  /* font-family: "Times New Roman",
+  Times,
+  serif; */
   /* font-family: "Computer Modern", serif; */
-  /* font-family: 'Muli', sans-serif; */
-  font-size: 1.1em;
-  /* padding: 0px 0px 0; */
+  font-family: 'Muli', sans-serif;
 }
 
 .non-technical_note .content p, .non-technical_note .content li{
-  /* text-align: justify; */
-  font-size: 1.1em;
+  font-size: 1.25em;
 }
 
-.non-technical_note .content li{
-  font-size: 1em;
-}
-
-.non-technical_note .content ol{
-  font-size: 0.9em;
-}
-
-.non-technical_note .content li::marker {
-  color: #E96479;
-  font-size: 1.5em;
-}
-
-/* .non-technical_note .content p{
+.non-technical_note .content p{
   padding-top:.25em;
-  padding-bottom:.1em;
-} */
+  padding-bottom:.25em;
+}
 
 .non-technical_note .content p .mjx-math {
   font-size: 1em;
@@ -497,44 +478,35 @@ Non-Technical Notes
 }
 
 .non-technical_note .non-technical_note_date{
-  font-size: 0.8em;
+  font-size: 1.4em;
   text-align: center;
-  /* font-family: 'Muli', sans-serif; */
-  font-family: Consolas, monaco, monospace;
+  font-family: 'Muli', sans-serif;
 }
 
 .non-technical_note h2{
   font-size: 1.6em;
   margin-top: 1em;
   margin-bottom: .5em;
-  /* font-family: 'Muli', sans-serif; */
-  font-family: Consolas, monaco, monospace; 
+  font-family: 'Muli', sans-serif;
   font-weight: bold;
-  color: #3E54AC;
 }
 
 .non-technical_note h3{
   font-size: 1.4em;
-  /* font-family: 'Muli', sans-serif; */
-  font-family: Consolas, monaco, monospace; 
+  font-family: 'Muli', sans-serif;
   font-weight: bold;
-  color: #696969;
 }
 
 .non-technical_note h4{
   font-size: 1.2em;
-  /* font-family: 'Muli', sans-serif; */
-  font-family: Consolas, monaco, monospace; 
+  font-family: 'Muli', sans-serif;
   font-weight: bold;
-  color: #E96479;
 }
 
 .non-technical_note h5{
   font-size: 1.1em;
-  /* font-family: 'Muli', sans-serif; */
-  font-family: Consolas, monaco, monospace; 
+  font-family: 'Muli', sans-serif;
   font-weight: bold;
-  color: #696969;
 }
 
 .non-technical_note p code{
@@ -560,10 +532,10 @@ Articles
 }
 
 .article .content{
-  font-family: "Times New Roman",
+  /* font-family: "Times New Roman",
   Times,
-  serif;
-  /* font-family: 'Muli', sans-serif; */
+  serif; */
+  font-family: 'Muli', sans-serif;
 }
 
 .article .content p, .article .content li{
@@ -676,24 +648,12 @@ Images
 ---------------------------------------------------------*/
 
 img{
-  /* margin: 0px 0px 0px -100px; */
-  /* margin: auto 5px; */
-  /* position: center; */
-  
-  /* text-align: center; */
   max-width: 100%;
-  /* text-align: center; */
-  /* position: fixed; */
-  /* height: auto; */
-  /* padding: 1px 1px 1px 1px; */
-  /* padding: 0px 50px; */
-  /* width: 100%; */
-  /* ie8 */
-  
+  height: auto;
+  /* width: 100%; ie8 */
   display:block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
 }
 
 /* ---------------------------------------------------------

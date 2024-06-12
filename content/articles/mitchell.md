@@ -3,7 +3,7 @@ title: "Review of Complexity Book by Melanie Mitchell"
 date: 2020-04-07T00:00:00-00:00
 draft: false
 author: "Eric Peña"
-type: technical_note
+type: non-technical_note
 ---
 
 ![image info](img_complexity/complexity.png)
@@ -67,5 +67,5 @@ It certainly does aide the reader in having stimulating real-world examples of n
 ## Scaling
 Mitchell naturally segues into the topic of scaling. The start of this chapter reminded me of Galileo's Square-Cube Law where he essentially argues that structures cannot simply be scaled up ad infinitum. The core of the argument involves recognizing that volume grows as the cube of the multiplier and the strength of support grows only as the cross-sectional area or square of the multiplier. One of the key messages with regards to scaling is that metabolic rate does not scale linearly with $bodymass$ but rather with $bodymass^{\frac{3}{4}}$. This occurs in a myriad of creatures and shows that they become more efficient as the scaling grows. This power law distribution of metabolic rate versus body-mass is referred to as Kleiber's law. James Brown, Brian Enquist, and Geoffrey West played pivotal roles in forming the metabolic scaling theory. Geoffrey West wrote a popular book on this subject as well that the general audience can appreciate: "Scale: The Universal Laws of Growth, Innovation, Sustainability, and the Pace of Life in Organisms, Cities, Economies, and Companies". He elaborates on how cities and economies tend to exhibit similar power law distributions when they are scaled up as well. Mitchell clearly explains Zipf's law---she emphasizes it's significance and ubiquity and also provides some insight into why this power-law distribution tends to naturally occur. Mitchell shares that this is an important open problem in complexity science but I was particularly interested in Mandelbrot's argument that the simultaneous optimization of information content and transmission leads directly to Zipf's law.
 
-## Conclusion
+# Conclusion
 The conclusion of the book serves the reader in several ways. It ties various concepts together mentioned throughout the book and gives a historical account of the key players that contributed to the field of complex systems. It also explains the goal of complexity as a science while sharing the honest opinions of complexity enthusiasts and critics, alike. Mitchell candidly addresses the major challenges of complexity science such as the lack of an all-encompassing mathematical framework from which complexity can be studied. Most importantly, it leaves us with the refreshing hope for future scientists to work diligently to explore the possibility of a grand unified theory of complexity and to discover what Strogatz refers to as the "conceptual equivalent of calculus".
