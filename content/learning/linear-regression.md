@@ -6,6 +6,7 @@ date: 2020-05-29T00:00:00-00:00
 type: non-technical_note
 draft: false
 ---
+
 # Mathematical Foundations
 
 The linear model is often the first model we learn fitting data. Given a vector of inputs $X^T = (X_1, X_2, \ldots, X_p)$, we can predict the output $Y$ with the following model:

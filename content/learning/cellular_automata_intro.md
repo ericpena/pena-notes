@@ -150,10 +150,10 @@ ArrayPlot[CellularAutomaton[90, {{1}, 0}, {200, 200}], Frame -> False]
 ![Figure 4 - Rule30](img_ca/rule90.png)
 
 ## References
-* `Stephen Wolfram. \Statistical mechanics of cellular automata". In: Reviews of modern physics 55.3 (1983), p. 601.`
-* `Norman H Packard and Stephen Wolfram. \Two-dimensional cellular automata". In: Journal of Statistical physics 38.5 (1985), pp. 901{946.`
-* `Stephen Wolfram. A new kind of science. Vol. 5. Wolfram media Champaign, IL, 2002.`
-* `Nino Boccara. Modeling complex systems. Springer Science & Business Media, 2010.`
-* `Hiroki Sayama. Introduction to the modeling and analysis of complex systems. Open SUNY Textbooks, 2015.`
-* `Yaneer Bar-Yam. Dynamics of complex systems. CRC Press, 2019.`
+1. `Stephen Wolfram. \Statistical mechanics of cellular automata". In: Reviews of modern physics 55.3 (1983), p. 601.`
+2. `Norman H Packard and Stephen Wolfram. \Two-dimensional cellular automata". In: Journal of Statistical physics 38.5 (1985), pp. 901{946.`
+3. `Stephen Wolfram. A new kind of science. Vol. 5. Wolfram media Champaign, IL, 2002.`
+4. `Nino Boccara. Modeling complex systems. Springer Science & Business Media, 2010.`
+5. `Hiroki Sayama. Introduction to the modeling and analysis of complex systems. Open SUNY Textbooks, 2015.`
+6. `Yaneer Bar-Yam. Dynamics of complex systems. CRC Press, 2019.`
 

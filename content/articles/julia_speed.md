@@ -9,7 +9,7 @@ draft: false
 
 ![](img_julia/logo.png)
 
-## Creating fib(n)
+### Creating fib(n)
 
 ```python
 function fib(n)
@@ -21,8 +21,8 @@ function fib(n)
 end
 ```
 
-## Timing fib(n) 1:40
-```python
+### Timing fib(n) 1:40
+```julia
 function fibTime(k)
     t = []
     for i in 1:k
@@ -35,10 +35,10 @@ end
 println(fibTime(40))
 ```
 
-## Plotting @Timed Results
+### Plotting @Timed Results
 
 The timing for Julia is surprisingly very fast!
-```python
+```julia
 using Plots
 plot(fibTime(40), title="Timed Recursive Fibonacci Algorithm", 
 	color = :red, fill = (0, .3, :red), legend = false)
@@ -46,12 +46,10 @@ xaxis!("[n given in fib(n)]")
 yaxis!("Time [seconds]")
 ```
 
-<hr>
-
 ![](img_julia/timed.png)
 Figure 1 — Timed Recursive Algorithm That Calculates $n^{th}$ Fibonacci Number in Julia.
 
-## Achieve Results in Python
+### Achieve Results in Python
 
 ```python
 from matplotlib import pyplot as plt
@@ -81,18 +79,15 @@ plt.ylabel("Time [seconds]")
 plt.show()
 ```
 
-<hr>
-
 The results from Python are significantly slower than compared to Julia. $Fib(40)$ takes nearly $30$ seconds to complete.
 
 ![](img_julia/timed_python.png)
 Figure 2 — Timed Recursive Algorithm That Calculates $n^{th}$ Fibonacci Number in Python.
 
-## Show Julia Versus Python Comparison
+### Show Julia Versus Python Comparison
 
 The plot below shows that Julia is significantly more efficient compared to Python for this recursive algorithm.
 
-<hr>
 
 ![](img_julia/comparison.png)
 Figure 3 — Timed Recursive Algorithm Between Julia and Python between $n = 30$ and $n = 40$

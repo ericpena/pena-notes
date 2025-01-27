@@ -1,4 +1,4 @@
----
+opt---
 title: "optimizing trajectory angle"
 author: "Eric Peña"
 date: 2019-12-13T00:00:00-07:00
